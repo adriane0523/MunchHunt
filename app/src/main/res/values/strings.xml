@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MunchHunt</string>
+
+    <string name="google_maps_API_key">AIzaSyD52YEYY93iUzS7Kb0O3qN5kDa_9duqeSs</string>
+    <string name="title_activity_body_map">bodyMap</string>
+    <string name="title_activity_login">Login</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_add__remove">Add_Remove</string>
+
+
+</resources>

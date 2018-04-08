@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tabian.com.MunchHunt2.Register">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_above="@+id/radioButton7"
+            android:layout_alignEnd="@+id/radioButton8"
+            android:text="Gender"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="199dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/button3"
+            android:text="Register"
+
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="140dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_centerVertical="true"
+            android:text="Family History of high Blood Pressure?"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="272dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView4"
+
+            android:layout_below="@+id/radioButton8"
+            android:layout_marginTop="15dp"
+            android:text="Age"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="335dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/radioButton5"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="47dp"
+            android:text="Ethnicity"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/radioButton10"
+            android:layout_alignBottom="@+id/radioButton10"
+            android:layout_toEndOf="@+id/radioButton10"
+            android:text="18-25"
+            tools:layout_editor_absoluteX="137dp"
+            tools:layout_editor_absoluteY="365dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/radioButton12"
+            android:layout_alignBottom="@+id/radioButton12"
+            android:layout_toEndOf="@+id/textView5"
+            android:text="Over 35"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="450dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="14dp"
+            android:text="Yes"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="293dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/radioButton8"
+            android:layout_alignBottom="@+id/radioButton8"
+            android:layout_toEndOf="@+id/radioButton5"
+            android:text="No"
+            tools:layout_editor_absoluteX="140dp"
+            tools:layout_editor_absoluteY="293dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignEnd="@+id/radioButton"
+            android:layout_below="@+id/radioButton14"
+            android:text="Other"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="157dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/radioButton5"
+            android:layout_below="@+id/radioButton"
+            android:text="Hispanic"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="160dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="16dp"
+            android:text="Asian "
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="91dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/radioButton4"
+            android:layout_below="@+id/radioButton4"
+            android:text="Caucasian" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/radioButton"
+            android:layout_alignBottom="@+id/radioButton"
+            android:layout_alignEnd="@+id/button3"
+            android:text="African Americans"
+            tools:layout_editor_absoluteX="127dp"
+            tools:layout_editor_absoluteY="123dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView5"
+            android:layout_alignEnd="@+id/radioButton11"
+            android:text="Male"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="220dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView5"
+            android:layout_alignParentStart="true"
+            android:text="Female"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="220dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="35dp"
+            android:text="Create Patient"
+            tools:layout_editor_absoluteX="123dp"
+            tools:layout_editor_absoluteY="469dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton10"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/textView6"
+            android:layout_marginTop="17dp"
+            android:text="Under 18"
+            tools:layout_editor_absoluteX="38dp"
+            tools:layout_editor_absoluteY="365dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/radioButton11"
+            android:layout_alignBottom="@+id/radioButton11"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/radioButton11"
+            android:text="25-35"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="394dp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
